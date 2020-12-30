@@ -104,7 +104,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	
+<!-- have to check tomorrow -->
 <!-- To compile origin project to docker image -->
 	<build>
 		<finalName>currency-exchange</finalName>
