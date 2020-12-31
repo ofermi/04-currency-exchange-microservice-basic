@@ -26,7 +26,8 @@ public class ExchangeValue {
 
 	}
 
-	public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiple) {
+	public ExchangeValue(Long id, String from, String to, 
+			                                      BigDecimal conversionMultiple) {
 		super();
 		this.id = id;
 		this.from = from;
@@ -55,7 +56,7 @@ public class ExchangeValue {
 	}
 
 	public void setExchangeEnvironmentInfo(String exchangeEnvironmentInfo) {
-		this.exchangeEnvironmentInfo = exchangeEnvironmentInfo;
+			this.exchangeEnvironmentInfo = exchangeEnvironmentInfo;
 	}
 
 	@Override
